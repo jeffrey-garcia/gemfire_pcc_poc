@@ -1,4 +1,4 @@
-Please download Jmeter 3.2 and put in the load test home folder.
+Please download [Jmeter 3.2](http://ftp.cuhk.edu.hk/pub/packages/apache.org//jmeter/binaries/apache-jmeter-3.2.zip) and put in the load test home folder.
 
 To run load test for Gemfire:
 ```
