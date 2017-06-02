@@ -2,6 +2,6 @@
 
 There are 4 major folders:
 * [Gemfire Server](gemfire-server/README.md)
-* Gemfire Client
-* Client App for Pivotal Cloud Cache
-* Load test by Jmeter
+* [Gemfire Client](gemfire-client/README.md)
+* [Client App for Pivotal Cloud Cache](cloud-cache-app/README.md)
+* [Load test by Jmeter](load-test/README.md)
