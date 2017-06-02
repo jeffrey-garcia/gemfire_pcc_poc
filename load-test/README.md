@@ -10,4 +10,6 @@ To run load test for PCC:
 ./start_load_pcc.sh
 ```
 
+You may update the number of loop and number of thread in jmx file. I found that 200 threads is optimum from my Macbook. 
+
 Result can be found in report folder and jmeter log.
