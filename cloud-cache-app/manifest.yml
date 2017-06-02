@@ -1,0 +1,18 @@
+---
+applications:
+- name: MovePCC
+  memory: 2g
+  host: movepcc
+  path: target/demo-pcc-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack_offline
+  services:
+  - GEMFIRE_DB
+  - pcc
+- name: MovePCCRead
+  memory: 2g
+  host: movepccread
+  buildpack: java_buildpack_offline
+  path: target/demo-pcc-0.0.1-SNAPSHOT.jar
+  services:
+  - GEMFIRE_DB
+  - pcc
