@@ -37,6 +37,7 @@ public class WebController{
 		log.debug("put " + clientHealthInfo.getAccountId());
 		clientHealthInfoRepository.save(clientHealthInfo);
 	}
+
 	@GetMapping("/clientHealthInfo/{id}")
 	public ClientHealthInfo getOneByDb(@PathVariable("id") String id){
 		PdxInstance clientHealthInfo = (PdxInstance) clientHealthInfoRepository.findOne(id);
